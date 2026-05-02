@@ -1,25 +1,25 @@
 class Jaljira < Formula
   desc "Local-first Bunli CLI for tracking Jira ticket work and deriving Tempo/Keka allocations."
   homepage "https://github.com/bloodred17/jaljira"
-  version "0.3.0"
+  version "0.3.1"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/bloodred17/jaljira/releases/download/v0.3.0/jaljira-0.3.0-darwin-arm64.tar.gz"
-      sha256 "17055d4473c2dcc534dfa7683e177d991d1460410b0a2aa5bc25d63f0ed7b236"
+      url "https://github.com/bloodred17/jaljira/releases/download/v0.3.1/jaljira-0.3.1-darwin-arm64.tar.gz"
+      sha256 "0e9560e784b1531c977381b2e73c77628de9e7373a063f22a580c26e029e69a4"
     else
-      url "https://github.com/bloodred17/jaljira/releases/download/v0.3.0/jaljira-0.3.0-darwin-x64.tar.gz"
-      sha256 "f60e1b87154b14a72e196c631a68d9cbba4d4113fe086aef8a7b9d98262c4644"
+      url "https://github.com/bloodred17/jaljira/releases/download/v0.3.1/jaljira-0.3.1-darwin-x64.tar.gz"
+      sha256 "434dd216883d2321564bd2986a1e527fe5d602c5cf689ceb3ad9536136739d3d"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
-      url "https://github.com/bloodred17/jaljira/releases/download/v0.3.0/jaljira-0.3.0-linux-arm64.tar.gz"
-      sha256 "a813ad80c3ebbc66a73f9995f2a05b2283796b62167690a32ab09635ceca9e5e"
+      url "https://github.com/bloodred17/jaljira/releases/download/v0.3.1/jaljira-0.3.1-linux-arm64.tar.gz"
+      sha256 "4c7a2314665d2bf3c493b10fcc19493b97807709b98f5b71edcd38187cb50966"
     else
-      url "https://github.com/bloodred17/jaljira/releases/download/v0.3.0/jaljira-0.3.0-linux-x64.tar.gz"
-      sha256 "e6095a3c6b2a30cdf5e1ef105cf5508be85bd352655d07753efcca24a800c5b2"
+      url "https://github.com/bloodred17/jaljira/releases/download/v0.3.1/jaljira-0.3.1-linux-x64.tar.gz"
+      sha256 "5d97805e2bb5c98df079428b09b792d53c3b0f10488ff3f4b6c406a7fac67227"
     end
   end
 
